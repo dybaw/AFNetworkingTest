@@ -14,6 +14,14 @@
 		1BA6E0B61B87188C00F7FBDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6E0B51B87188C00F7FBDF /* Images.xcassets */; };
 		1BA6E0B91B87188C00F7FBDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6E0B71B87188C00F7FBDF /* LaunchScreen.xib */; };
 		1BA6E0C51B87188C00F7FBDF /* AFNetworkingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6E0C41B87188C00F7FBDF /* AFNetworkingTestTests.m */; };
+		1BA6E1071B87192300F7FBDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E1061B87192300F7FBDF /* Security.framework */; };
+		1BA6E1091B87192800F7FBDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E1081B87192800F7FBDF /* UIKit.framework */; };
+		1BA6E10B1B87192E00F7FBDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E10A1B87192E00F7FBDF /* Foundation.framework */; };
+		1BA6E10D1B87193300F7FBDF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E10C1B87193300F7FBDF /* MobileCoreServices.framework */; };
+		1BA6E10F1B87194200F7FBDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E10E1B87194200F7FBDF /* CoreGraphics.framework */; };
+		1BA6E1111B87194800F7FBDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E1101B87194800F7FBDF /* CoreLocation.framework */; };
+		1BA6E1131B87195100F7FBDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6E1121B87195100F7FBDF /* SystemConfiguration.framework */; };
+		7DA4A81A93D7DB868DAB4C06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC1B5482DEB29F36460DE40 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,17 @@
 		1BA6E0BE1B87188C00F7FBDF /* AFNetworkingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA6E0C31B87188C00F7FBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA6E0C41B87188C00F7FBDF /* AFNetworkingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTestTests.m; sourceTree = "<group>"; };
+		1BA6E1061B87192300F7FBDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BA6E1081B87192800F7FBDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BA6E10A1B87192E00F7FBDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BA6E10C1B87193300F7FBDF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1BA6E10E1B87194200F7FBDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BA6E1101B87194800F7FBDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1BA6E1121B87195100F7FBDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BA6E1151B871B3800F7FBDF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3A0B2D9FE5C143519E8BD6B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC1B5482DEB29F36460DE40 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD53466323CCDCC5ED65D78 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA6E1131B87195100F7FBDF /* SystemConfiguration.framework in Frameworks */,
+				1BA6E1111B87194800F7FBDF /* CoreLocation.framework in Frameworks */,
+				1BA6E10F1B87194200F7FBDF /* CoreGraphics.framework in Frameworks */,
+				1BA6E10D1B87193300F7FBDF /* MobileCoreServices.framework in Frameworks */,
+				1BA6E10B1B87192E00F7FBDF /* Foundation.framework in Frameworks */,
+				1BA6E1091B87192800F7FBDF /* UIKit.framework in Frameworks */,
+				1BA6E1071B87192300F7FBDF /* Security.framework in Frameworks */,
+				7DA4A81A93D7DB868DAB4C06 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +90,18 @@
 		1BA6E09C1B87188C00F7FBDF = {
 			isa = PBXGroup;
 			children = (
+				1BA6E1121B87195100F7FBDF /* SystemConfiguration.framework */,
+				1BA6E1101B87194800F7FBDF /* CoreLocation.framework */,
+				1BA6E10E1B87194200F7FBDF /* CoreGraphics.framework */,
+				1BA6E10C1B87193300F7FBDF /* MobileCoreServices.framework */,
+				1BA6E10A1B87192E00F7FBDF /* Foundation.framework */,
+				1BA6E1081B87192800F7FBDF /* UIKit.framework */,
+				1BA6E1061B87192300F7FBDF /* Security.framework */,
 				1BA6E0A71B87188C00F7FBDF /* AFNetworkingTest */,
 				1BA6E0C11B87188C00F7FBDF /* AFNetworkingTestTests */,
 				1BA6E0A61B87188C00F7FBDF /* Products */,
+				4BA8C38DED9E75DD7AC556B7 /* Pods */,
+				DB371CC6447D65BC6A1F3ED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +134,7 @@
 			children = (
 				1BA6E0A91B87188C00F7FBDF /* Info.plist */,
 				1BA6E0AA1B87188C00F7FBDF /* main.m */,
+				1BA6E1151B871B3800F7FBDF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +156,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4BA8C38DED9E75DD7AC556B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B2D9FE5C143519E8BD6B3 /* Pods.debug.xcconfig */,
+				CBD53466323CCDCC5ED65D78 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB371CC6447D65BC6A1F3ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1B5482DEB29F36460DE40 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BA6E0C81B87188C00F7FBDF /* Build configuration list for PBXNativeTarget "AFNetworkingTest" */;
 			buildPhases = (
+				C24DD85E5C91A0223F18181C /* Check Pods Manifest.lock */,
 				1BA6E0A11B87188C00F7FBDF /* Sources */,
 				1BA6E0A21B87188C00F7FBDF /* Frameworks */,
 				1BA6E0A31B87188C00F7FBDF /* Resources */,
+				1AC29454496E7ED7FA3A63D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +269,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC29454496E7ED7FA3A63D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24DD85E5C91A0223F18181C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BA6E0A11B87188C00F7FBDF /* Sources */ = {
@@ -345,8 +434,12 @@
 		};
 		1BA6E0C91B87188C00F7FBDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0B2D9FE5C143519E8BD6B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AFNetworkingTest/PrefixHeader.pch;
 				INFOPLIST_FILE = AFNetworkingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,8 +448,12 @@
 		};
 		1BA6E0CA1B87188C00F7FBDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD53466323CCDCC5ED65D78 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AFNetworkingTest/PrefixHeader.pch;
 				INFOPLIST_FILE = AFNetworkingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +513,7 @@
 				1BA6E0CA1B87188C00F7FBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BA6E0CB1B87188C00F7FBDF /* Build configuration list for PBXNativeTarget "AFNetworkingTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +522,7 @@
 				1BA6E0CD1B87188C00F7FBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
